@@ -21,7 +21,7 @@ bin/build-zip.sh && unzip -o dist/carbon-pay-for-woocommerce-*.zip -d /tmp/cpw &
 
 ## Still to do (people, not code)
 
-1. **Privacy policy.** carbon.ir has terms (`/fa/terms-and-conditions`) but no privacy policy page. Reviewers expect both links in the External services section, because the plugin sends payers' mobile numbers and national codes to Carbon. Publish one and add the link to `readme.txt`.
+1. [x] **Privacy policy.** The External services section of `readme.txt` links the terms (`/fa/terms-and-conditions`) and their privacy article (`#art8`, «حریم خصوصی و امنیت داده‌ها»). If a reviewer asks for a standalone privacy policy (carbon.ir has none yet), publish one and replace the `#art8` link.
 2. [x] **WordPress.org account.** [`carbonir`](https://profiles.wordpress.org/carbonir/) is in `Contributors:` in `readme.txt`. Submit the plugin and answer the review emails from this account.
 3. **Persian interface strings.** Payer- and admin-facing text is written directly in Persian, not wrapped in `__()`. That is allowed, but reviewers may ask for English source strings with a Persian translation. If they do, wrap the strings with the `carbon-pay-for-woocommerce` text domain and move the Persian text into the fa_IR translation.
 4. **Persian listing.** After approval, translate the readme on translate.wordpress.org using `docs/readme-fa.txt`, and the plugin header (name, description), so Persian wp-admin shows «افزونه پرداخت کربن برای ووکامرس» again.

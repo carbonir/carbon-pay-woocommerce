@@ -144,7 +144,7 @@ No. Customers see the same Carbon name and copy in every store, so the title and
 
 ## Privacy and external services
 
-This plugin calls the Carbon API at `https://api.carbon.ir` to create and verify payments. It sends your merchant code; the order number, date, total and line items; your store's return URL; and the customer's first name, last name, mobile number and national ID code, which Carbon needs to identify the payer. See the **External services** section of [readme.txt](readme.txt) and Carbon's [terms and conditions](https://carbon.ir/fa/terms-and-conditions).
+This plugin calls the Carbon API at `https://api.carbon.ir` to create and verify payments. It sends your merchant code; the order number, date, total and line items; your store's return URL; and the customer's first name, last name, mobile number and national ID code, which Carbon needs to identify the payer. See the **External services** section of [readme.txt](readme.txt) Carbon's [terms of use](https://carbon.ir/fa/terms-and-conditions) and [privacy policy](https://carbon.ir/fa/terms-and-conditions#art8) (article 8).
 
 ## For developers
 

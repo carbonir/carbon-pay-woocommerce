@@ -33,7 +33,8 @@ This plugin connects to the Carbon payment gateway API, operated by Carbon (http
 * **Where:** `https://api.carbon.ir`. The customer is then redirected to Carbon's hosted payment page.
 * **What is sent:** your merchant code; the order number, date and total; the order's line items, fees and shipping (name, quantity, price, discount, tax); your store's return URL; and the customer's first name, last name, mobile number and national ID code, which Carbon requires to identify the payer. Verification requests send the payment token, the order number and the amount.
 
-Carbon terms and conditions: https://carbon.ir/fa/terms-and-conditions
+* **Terms of use:** https://carbon.ir/fa/terms-and-conditions
+* **Privacy policy:** https://carbon.ir/fa/terms-and-conditions#art8 (article 8, privacy and data security)
 
 == Installation ==
 
