@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:          Carbon Pay for WooCommerce
- * Plugin URI:           https://carbon.ir
+ * Plugin URI:           https://github.com/carbonir/carbon-pay-woocommerce
  * Description:          Let customers pay with their Carbon purchasing power (cash, gold and silver, credit and instalments) through the Carbon CPG payment gateway.
  * Version:              1.0.0
  * Author:               سکوی مدیریت آرمان
