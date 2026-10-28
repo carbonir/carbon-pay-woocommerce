@@ -1,5 +1,5 @@
 === Carbon Pay for WooCommerce ===
-Contributors: carbon
+Contributors: carbonir
 Tags: woocommerce, payment gateway, iran, bnpl, carbon
 Requires at least: 6.4
 Tested up to: 7.1

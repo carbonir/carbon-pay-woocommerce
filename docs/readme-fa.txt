@@ -1,5 +1,5 @@
 === افزونه پرداخت کربن برای ووکامرس ===
-Contributors: carbon
+Contributors: carbonir
 Tags: woocommerce, payment gateway, carbon, bnpl, iran
 Requires at least: 6.4
 Tested up to: 7.1
