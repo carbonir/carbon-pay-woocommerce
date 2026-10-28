@@ -1,0 +1,21 @@
+* text=auto eol=lf
+*.woff2 binary
+*.webp binary
+*.png binary
+
+# Excluded from `git archive` release builds.
+/tests export-ignore
+/bin export-ignore
+/.gitignore export-ignore
+/.gitattributes export-ignore
+/.gitlab-ci.yml export-ignore
+/.editorconfig export-ignore
+/composer.json export-ignore
+/composer.lock export-ignore
+/package.json export-ignore
+/phpunit.xml.dist export-ignore
+/CHANGELOG.md export-ignore
+/docs export-ignore
+/.github export-ignore
+/.wordpress-org export-ignore
+/README.md export-ignore

@@ -1,0 +1,39 @@
+{
+    "name": "carbon/carbon-pay-woocommerce",
+    "description": "Carbon (کربن) payment gateway for WooCommerce, backed by the Carbon CPG service.",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "سکوی مدیریت آرمان",
+            "homepage": "https://carbon.ir"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "brain/monkey": "^2.6",
+        "mockery/mockery": "^1.6",
+        "phpunit/phpunit": "^9.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Carbon\\Pay\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Carbon\\Pay\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "config": {
+        "platform": {
+            "php": "7.4.33"
+        },
+        "sort-packages": true
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "carbon-pay-woocommerce",
+  "private": true,
+  "description": "JS unit tests for Carbon Pay for WooCommerce.",
+  "license": "GPL-2.0-or-later",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test 'tests/js/*.test.mjs'",
+    "build:icons": "node bin/build-icons.mjs"
+  }
+}
