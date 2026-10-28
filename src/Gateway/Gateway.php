@@ -97,6 +97,7 @@ class Gateway extends WC_Payment_Gateway
             return parent::get_icon();
         }
 
+        // phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedHooknameFound -- WooCommerce core filter, applied as WC_Payment_Gateway::get_icon() does.
         return apply_filters('woocommerce_gateway_icon', Template::render('checkout/label'), $this->id);
     }
 
